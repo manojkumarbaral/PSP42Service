@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj": {}
+    "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj": {}
   },
   "projects": {
-    "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj": {
+    "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj",
+        "projectUniqueName": "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj",
         "projectName": "PSP42APIEntity",
-        "projectPath": "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj",
+        "projectPath": "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\obj\\",
+        "outputPath": "D:\\Working\\Manoj\\API\\PSP42APIEntity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

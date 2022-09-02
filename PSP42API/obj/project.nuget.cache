@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tG9gaV8nB2kj2uwkUtYyDmL+VoE5qFL5m6DBKOjS2UEhOsT0VbRCfBr15Gu9hdC8bCryULlk/NnxmBdVEa840A==",
+  "dgSpecHash": "VZWyQNLSUccuaqXnIu9jpU+4G97+AQ5Au/FN8zfcznEuR5qs//++ywJPGsKypkcxB/KJeLd5LkbepkaubR2xrA==",
   "success": true,
-  "projectFilePath": "D:\\Working\\Subharanjan\\API\\PSP42API\\PSP42API.csproj",
+  "projectFilePath": "D:\\Working\\Manoj\\API\\PSP42API\\PSP42API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.6\\microsoft.aspnetcore.authentication.jwtbearer.6.0.6.nupkg.sha512",

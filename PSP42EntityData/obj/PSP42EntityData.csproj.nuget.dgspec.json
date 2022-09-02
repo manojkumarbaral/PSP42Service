@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Working\\Subharanjan\\API\\PSP42EntityData\\PSP42EntityData.csproj": {}
+    "D:\\Working\\Manoj\\API\\PSP42EntityData\\PSP42EntityData.csproj": {}
   },
   "projects": {
-    "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj": {
+    "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj",
+        "projectUniqueName": "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj",
         "projectName": "PSP42APIEntity",
-        "projectPath": "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj",
+        "projectPath": "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\obj\\",
+        "outputPath": "D:\\Working\\Manoj\\API\\PSP42APIEntity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "D:\\Working\\Subharanjan\\API\\PSP42DataAccess\\PSP42DataAccess.csproj": {
+    "D:\\Working\\Manoj\\API\\PSP42DataAccess\\PSP42DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Working\\Subharanjan\\API\\PSP42DataAccess\\PSP42DataAccess.csproj",
+        "projectUniqueName": "D:\\Working\\Manoj\\API\\PSP42DataAccess\\PSP42DataAccess.csproj",
         "projectName": "PSP42DataAccess",
-        "projectPath": "D:\\Working\\Subharanjan\\API\\PSP42DataAccess\\PSP42DataAccess.csproj",
+        "projectPath": "D:\\Working\\Manoj\\API\\PSP42DataAccess\\PSP42DataAccess.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Working\\Subharanjan\\API\\PSP42DataAccess\\obj\\",
+        "outputPath": "D:\\Working\\Manoj\\API\\PSP42DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -152,14 +152,14 @@
         }
       }
     },
-    "D:\\Working\\Subharanjan\\API\\PSP42EntityData\\PSP42EntityData.csproj": {
+    "D:\\Working\\Manoj\\API\\PSP42EntityData\\PSP42EntityData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Working\\Subharanjan\\API\\PSP42EntityData\\PSP42EntityData.csproj",
+        "projectUniqueName": "D:\\Working\\Manoj\\API\\PSP42EntityData\\PSP42EntityData.csproj",
         "projectName": "PSP42EntityData",
-        "projectPath": "D:\\Working\\Subharanjan\\API\\PSP42EntityData\\PSP42EntityData.csproj",
+        "projectPath": "D:\\Working\\Manoj\\API\\PSP42EntityData\\PSP42EntityData.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Working\\Subharanjan\\API\\PSP42EntityData\\obj\\",
+        "outputPath": "D:\\Working\\Manoj\\API\\PSP42EntityData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -181,11 +181,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj": {
-                "projectPath": "D:\\Working\\Subharanjan\\API\\PSP42APIEntity\\PSP42APIEntity.csproj"
+              "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj": {
+                "projectPath": "D:\\Working\\Manoj\\API\\PSP42APIEntity\\PSP42APIEntity.csproj"
               },
-              "D:\\Working\\Subharanjan\\API\\PSP42DataAccess\\PSP42DataAccess.csproj": {
-                "projectPath": "D:\\Working\\Subharanjan\\API\\PSP42DataAccess\\PSP42DataAccess.csproj"
+              "D:\\Working\\Manoj\\API\\PSP42DataAccess\\PSP42DataAccess.csproj": {
+                "projectPath": "D:\\Working\\Manoj\\API\\PSP42DataAccess\\PSP42DataAccess.csproj"
               }
             }
           }

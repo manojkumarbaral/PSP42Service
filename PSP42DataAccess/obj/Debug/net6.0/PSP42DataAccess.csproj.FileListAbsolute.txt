@@ -37,3 +37,16 @@ D:\Working\Subharanjan\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.dll
 D:\Working\Subharanjan\API\PSP42DataAccess\obj\Debug\net6.0\refint\PSP42DataAccess.dll
 D:\Working\Subharanjan\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.pdb
 D:\Working\Subharanjan\API\PSP42DataAccess\obj\Debug\net6.0\ref\PSP42DataAccess.dll
+D:\Working\Manoj\API\PSP42DataAccess\bin\Debug\net6.0\PSP42DataAccess.deps.json
+D:\Working\Manoj\API\PSP42DataAccess\bin\Debug\net6.0\PSP42DataAccess.dll
+D:\Working\Manoj\API\PSP42DataAccess\bin\Debug\net6.0\PSP42DataAccess.pdb
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.csproj.AssemblyReference.cache
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.csproj.ResolveComReference.cache
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.AssemblyInfoInputs.cache
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.AssemblyInfo.cs
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.csproj.CoreCompileInputs.cache
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.dll
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\refint\PSP42DataAccess.dll
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\PSP42DataAccess.pdb
+D:\Working\Manoj\API\PSP42DataAccess\obj\Debug\net6.0\ref\PSP42DataAccess.dll
