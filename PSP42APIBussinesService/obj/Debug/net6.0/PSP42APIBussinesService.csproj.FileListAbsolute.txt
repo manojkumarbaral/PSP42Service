@@ -1,0 +1,57 @@
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.AssemblyReference.cache
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.AssemblyInfoInputs.cache
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.AssemblyInfo.cs
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.CoreCompileInputs.cache
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.deps.json
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.dll
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.pdb
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIEntity.dll
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42DataAccess.dll
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42EntityData.dll
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIEntity.pdb
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42DataAccess.pdb
+C:\Manoj Work\Final Project\PSP42APIBussinesService\bin\Debug\net6.0\PSP42EntityData.pdb
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.CopyComplete
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.dll
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\refint\PSP42APIBussinesService.dll
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.pdb
+C:\Manoj Work\Final Project\PSP42APIBussinesService\obj\Debug\net6.0\ref\PSP42APIBussinesService.dll
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.deps.json
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.dll
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.pdb
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIEntity.dll
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42DataAccess.dll
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42EntityData.dll
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIEntity.pdb
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42DataAccess.pdb
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42EntityData.pdb
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.AssemblyReference.cache
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.AssemblyInfoInputs.cache
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.AssemblyInfo.cs
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.CoreCompileInputs.cache
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.CopyComplete
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.dll
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\refint\PSP42APIBussinesService.dll
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.pdb
+C:\Manoj Work\1 Live Project\API\PSP42APIBussinesService\obj\Debug\net6.0\ref\PSP42APIBussinesService.dll
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.deps.json
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.dll
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIBussinesService.pdb
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIEntity.dll
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42DataAccess.dll
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42EntityData.dll
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42APIEntity.pdb
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42DataAccess.pdb
+D:\Working\Subharanjan\API\PSP42APIBussinesService\bin\Debug\net6.0\PSP42EntityData.pdb
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.AssemblyReference.cache
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.AssemblyInfoInputs.cache
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.AssemblyInfo.cs
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.CoreCompileInputs.cache
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.csproj.CopyComplete
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.dll
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\refint\PSP42APIBussinesService.dll
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\PSP42APIBussinesService.pdb
+D:\Working\Subharanjan\API\PSP42APIBussinesService\obj\Debug\net6.0\ref\PSP42APIBussinesService.dll
