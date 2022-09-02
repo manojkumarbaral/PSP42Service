@@ -1,0 +1,51 @@
+C:\Manoj Work\Final Project\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.deps.json
+C:\Manoj Work\Final Project\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.dll
+C:\Manoj Work\Final Project\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.pdb
+C:\Manoj Work\Final Project\PSP42EntityData\bin\Debug\net6.0\PSP42APIEntity.dll
+C:\Manoj Work\Final Project\PSP42EntityData\bin\Debug\net6.0\PSP42DataAccess.dll
+C:\Manoj Work\Final Project\PSP42EntityData\bin\Debug\net6.0\PSP42APIEntity.pdb
+C:\Manoj Work\Final Project\PSP42EntityData\bin\Debug\net6.0\PSP42DataAccess.pdb
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.AssemblyReference.cache
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.AssemblyInfoInputs.cache
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.AssemblyInfo.cs
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.CoreCompileInputs.cache
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.CopyComplete
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.dll
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\refint\PSP42EntityData.dll
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.pdb
+C:\Manoj Work\Final Project\PSP42EntityData\obj\Debug\net6.0\ref\PSP42EntityData.dll
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.deps.json
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.dll
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.pdb
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\bin\Debug\net6.0\PSP42APIEntity.dll
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\bin\Debug\net6.0\PSP42DataAccess.dll
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\bin\Debug\net6.0\PSP42APIEntity.pdb
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\bin\Debug\net6.0\PSP42DataAccess.pdb
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.AssemblyReference.cache
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.AssemblyInfoInputs.cache
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.AssemblyInfo.cs
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.CoreCompileInputs.cache
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.CopyComplete
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.dll
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\refint\PSP42EntityData.dll
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.pdb
+C:\Manoj Work\1 Live Project\API\PSP42EntityData\obj\Debug\net6.0\ref\PSP42EntityData.dll
+D:\Working\Subharanjan\API\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.deps.json
+D:\Working\Subharanjan\API\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.dll
+D:\Working\Subharanjan\API\PSP42EntityData\bin\Debug\net6.0\PSP42EntityData.pdb
+D:\Working\Subharanjan\API\PSP42EntityData\bin\Debug\net6.0\PSP42APIEntity.dll
+D:\Working\Subharanjan\API\PSP42EntityData\bin\Debug\net6.0\PSP42DataAccess.dll
+D:\Working\Subharanjan\API\PSP42EntityData\bin\Debug\net6.0\PSP42APIEntity.pdb
+D:\Working\Subharanjan\API\PSP42EntityData\bin\Debug\net6.0\PSP42DataAccess.pdb
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.AssemblyReference.cache
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.AssemblyInfoInputs.cache
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.AssemblyInfo.cs
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.CoreCompileInputs.cache
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.csproj.CopyComplete
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.dll
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\refint\PSP42EntityData.dll
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\PSP42EntityData.pdb
+D:\Working\Subharanjan\API\PSP42EntityData\obj\Debug\net6.0\ref\PSP42EntityData.dll
