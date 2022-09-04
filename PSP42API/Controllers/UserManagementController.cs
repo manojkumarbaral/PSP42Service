@@ -59,5 +59,25 @@ namespace WebAppiCore.Controllers
         }
 
 
+        [HttpPost("SubmitUpdateBrokerMasterDetails")]
+        public async Task<IActionResult> SubmitUpdateBrokerMasterDetails([FromBody] MS_Broker MS_Broker)
+        {
+            var res = await IUserManagementInterface.SubmitUpdateBrokerMasterDetails(MS_Broker);
+
+            return Ok(res);
+        }
+        [HttpGet("getAllBrokerMasterDetails")]
+        public async Task<IActionResult> getAllBrokerMasterDetails()
+        {
+            var res = await IUserManagementInterface.getAllBrokerMasterDetails();
+            return Ok(res);
+        }
+        [HttpGet("getBrokerMasterDetailsById")]
+        public async Task<IActionResult> getBrokerMasterDetailsById(int Broker_ID)
+        {
+            var res = await IUserManagementInterface.getBrokerMasterDetailsById(Broker_ID);
+            return Ok(res);
+        }
+
     }
 }

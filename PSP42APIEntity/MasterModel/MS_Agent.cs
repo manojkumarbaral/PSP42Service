@@ -17,5 +17,6 @@ namespace BusinessEntities.MasterModel
         public int CreatedBy { get; set; }
         public string? action { get; set; }
         public bool IsActive { get; set; }
+        public int tpaCustomerID { get; set; }
     }
 }

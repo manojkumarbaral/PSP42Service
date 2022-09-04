@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using BusinessEntities.MasterModel;
 using BusinessEntities;
 using DAL;
+using Microsoft.Extensions.Logging;
 
 namespace BusinessService.Logic
 {
@@ -101,6 +102,7 @@ namespace BusinessService.Logic
                     param.Add("@CreatedBy", MS_Agent.CreatedBy);
                     param.Add("@action", MS_Agent.action);
                     param.Add("@IsActive", MS_Agent.IsActive);
+                    param.Add("@tpaCustomerID", MS_Agent.tpaCustomerID);
 
                     string sp = "USP_submitAgentDetails";
                     var result = await db.QueryAsync<SuccesModel>(sp, param, commandType: CommandType.StoredProcedure);
@@ -151,7 +153,79 @@ namespace BusinessService.Logic
 
             }
         }
+        
+        public async Task<IEnumerable<SuccesModel>> SubmitUpdateBrokerMasterDetails(MS_Broker MS_Broker)
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    param.Add("@BrokerCode", MS_Broker.BrokerCode);
+                    param.Add("@BrokerName", MS_Broker.BrokerName);
+                    param.Add("@Broker_Trade_Lic_No", MS_Broker.Broker_Trade_Lic_No);
+                    param.Add("@Broker_Tel", MS_Broker.Broker_Tel);
+                    param.Add("@Broker_Email", MS_Broker.Broker_Email);
+                    param.Add("@CallCenter_GenEnquiryPhNo", MS_Broker.CallCenter_GenEnquiryPhNo);
+                    param.Add("@Broker_Address_Country_ID", MS_Broker.Broker_Address_Country_ID);
+                    param.Add("@Broker_Address_State_ID", MS_Broker.Broker_Address_State_ID);
+                    param.Add("@Broker_Address_City_ID", MS_Broker.Broker_Address_City_ID);
+                    param.Add("@Broker_Address_Street1", MS_Broker.Broker_Address_Street1);
+                    param.Add("@Broker_Address_Street2", MS_Broker.Broker_Address_Street2);
+                    param.Add("@action", MS_Broker.action);
+                    param.Add("@CreatedBy", MS_Broker.CreatedBy);
+                    param.Add("@Broker_ID", MS_Broker.Broker_ID);
+                    param.Add("@IsActive", MS_Broker.IsActive);
+                    
+                    string sp = "USP_submitUpdateBrokerMasterDetails";
+                    var result = await db.QueryAsync<SuccesModel>(sp, param, commandType: CommandType.StoredProcedure);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
 
+            }
+        }
 
+        public async Task<IEnumerable<MS_Broker>> getAllBrokerMasterDetails()
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+                {
+                    string sp = "USP_getAllBrokerMasterDetails";
+                    var result = await db.QueryAsync<MS_Broker>(sp, commandType: CommandType.StoredProcedure);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+
+            }
+        }
+
+        public async Task<IEnumerable<MS_Broker>> getBrokerMasterDetailsById(int broker_ID)
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    param.Add("@Broker_ID", broker_ID);
+
+                    string sp = "USP_getBrokerMasterDetailsById";
+                    var result = await db.QueryAsync<MS_Broker>(sp, param, commandType: CommandType.StoredProcedure);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+
+            }
+        }
     }
 }
