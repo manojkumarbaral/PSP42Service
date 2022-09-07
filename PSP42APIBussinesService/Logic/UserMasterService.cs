@@ -227,5 +227,129 @@ namespace BusinessService.Logic
 
             }
         }
+
+        public async Task<IEnumerable<SuccesModel>> SubmitUpdateBrokerBranchDetails(MS_Branch MS_Branch)
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    param.Add("@AgentID", MS_Branch.AgentID);
+                    param.Add("@Broker_ID", MS_Branch.Broker_ID);
+                    param.Add("@CompanyId", MS_Branch.CompanyId);
+                    param.Add("@BranchCode", MS_Branch.BranchCode);
+                    param.Add("@BranchName", MS_Branch.BranchName);
+                    param.Add("@BranchAddress", MS_Branch.BranchAddress);
+                    param.Add("@Country_ID", MS_Branch.Country_ID);
+                    param.Add("@State_ID", MS_Branch.State_ID);
+                    param.Add("@City_ID", MS_Branch.City_ID);
+                    param.Add("@OfficePhone", MS_Branch.OfficePhone);
+                    param.Add("@CCPhone", MS_Branch.CCPhone);
+                    param.Add("@OperationAdminAcc_Dep_Phone", MS_Branch.OperationAdminAcc_Dep_Phone);
+                    param.Add("@Email", MS_Branch.Email);
+                    param.Add("@BranchOpeningTime", MS_Branch.BranchOpeningTime);
+                    param.Add("@BranchClosingTime", MS_Branch.BranchClosingTime);
+                    param.Add("@action", MS_Branch.action);
+                    param.Add("@CreatedBy", MS_Branch.CreatedBy);
+                    param.Add("@IsActive", MS_Branch.IsActive);
+                    string sp = string.Empty;
+                    if (MS_Branch.type == "agent")
+                    {
+                        sp = "USP_submitUpdateAgentBranchDetails";
+                    }
+                    else
+                    {
+                        sp = "USP_submitUpdateBrokerBranchDetails";
+                    }
+
+                    var result = await db.QueryAsync<SuccesModel>(sp, param, commandType: CommandType.StoredProcedure);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+
+            }
+        }
+
+        public async Task<IEnumerable<MS_Branch>> getAllBrokerBranchDetails()
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+                {
+                    string sp = "USP_getAllDataBrokerBranch";
+                    var result = await db.QueryAsync<MS_Branch>(sp, commandType: CommandType.StoredProcedure);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+
+            }
+        }
+        public async Task<IEnumerable<MS_Branch>> getBrokerBranchDetailsById(int Branch_ID)
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    param.Add("@Branch_ID", Branch_ID);
+
+                    string sp = "USP_getAllDataBrokerBranchByID";
+                    var result = await db.QueryAsync<MS_Branch>(sp, param, commandType: CommandType.StoredProcedure);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+
+            }
+        }
+
+        public async Task<IEnumerable<MS_Branch>> getAgentBranchDetailsById(int Branch_ID)
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+                {
+                    DynamicParameters param = new DynamicParameters();
+                    param.Add("@Branch_ID", Branch_ID);
+
+                    string sp = "USP_getAllDataAgentBranchByID";
+                    var result = await db.QueryAsync<MS_Branch>(sp, param, commandType: CommandType.StoredProcedure);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+
+            }
+        }
+
+        public async Task<IEnumerable<MS_Branch>> getAllAgentBranchDetails()
+        {
+            try
+            {
+                using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+                {
+                    string sp = "USP_getAllDataAgentBranch";
+                    var result = await db.QueryAsync<MS_Branch>(sp, commandType: CommandType.StoredProcedure);
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+
+            }
+        }
+        
     }
 }

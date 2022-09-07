@@ -79,5 +79,38 @@ namespace WebAppiCore.Controllers
             return Ok(res);
         }
 
+
+        [HttpPost("SubmitUpdateBranchDetails")]
+        public async Task<IActionResult> SubmitUpdateBranchDetails([FromBody] MS_Branch MS_Branch)
+        {
+            var res = await IUserManagementInterface.SubmitUpdateBrokerBranchDetails(MS_Branch);
+
+            return Ok(res);
+        }
+        [HttpGet("getAllBrokerBranchDetails")]
+        public async Task<IActionResult> getAllBrokerBranchDetails()
+        {
+            var res = await IUserManagementInterface.getAllBrokerBranchDetails();
+            return Ok(res);
+        }
+        [HttpGet("getBrokerBranchDetailsById")]
+        public async Task<IActionResult> getBrokerBranchDetailsById(int Branch_ID)
+        {
+            var res = await IUserManagementInterface.getBrokerBranchDetailsById(Branch_ID);
+            return Ok(res);
+        }
+
+        [HttpGet("getAllAgentBranchDetails")]
+        public async Task<IActionResult> getAllAgentBranchDetails()
+        {
+            var res = await IUserManagementInterface.getAllAgentBranchDetails();
+            return Ok(res);
+        }
+        [HttpGet("getAgentBranchDetailsById")]
+        public async Task<IActionResult> getAgentBranchDetailsById(int AgentID)
+        {
+            var res = await IUserManagementInterface.getAgentBranchDetailsById(AgentID);
+            return Ok(res);
+        }   
     }
 }

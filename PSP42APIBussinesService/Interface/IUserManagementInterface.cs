@@ -21,5 +21,12 @@ namespace BusinessService.Interface
         Task<IEnumerable<SuccesModel>> SubmitUpdateBrokerMasterDetails(MS_Broker mS_Broker);
         Task<IEnumerable<MS_Broker>> getAllBrokerMasterDetails();
         Task<IEnumerable<MS_Broker>> getBrokerMasterDetailsById(int broker_ID);
+
+
+        Task<IEnumerable<MS_Branch>> getAgentBranchDetailsById(int AgentID);
+        Task<IEnumerable<MS_Branch>> getAllAgentBranchDetails();    
+        Task<IEnumerable<MS_Branch>> getBrokerBranchDetailsById(int Branch_ID);
+        Task<IEnumerable<MS_Branch>> getAllBrokerBranchDetails();
+        Task<IEnumerable<SuccesModel>> SubmitUpdateBrokerBranchDetails(MS_Branch MS_Branch);
     }
 }
