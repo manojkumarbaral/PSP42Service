@@ -27,9 +27,9 @@ namespace BusinessEntities.MasterModel
         public string? Email { get; set; }
 
 
-        public TimeSpan BranchOpeningTime { get; set; }
+        public string? BranchOpeningTime { get; set; }
 
-        public TimeSpan BranchClosingTime { get; set; }
+        public string? BranchClosingTime { get; set; }
         public string? action { get; set; }
         public int CreatedBy { get; set; }
         public int Branch_ID { get; set; }

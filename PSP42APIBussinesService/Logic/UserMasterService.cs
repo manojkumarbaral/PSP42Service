@@ -237,6 +237,7 @@ namespace BusinessService.Logic
                     DynamicParameters param = new DynamicParameters();
                     param.Add("@AgentID", MS_Branch.AgentID);
                     param.Add("@Broker_ID", MS_Branch.Broker_ID);
+                    param.Add("@Branch_ID", MS_Branch.Branch_ID);
                     param.Add("@CompanyId", MS_Branch.CompanyId);
                     param.Add("@BranchCode", MS_Branch.BranchCode);
                     param.Add("@BranchName", MS_Branch.BranchName);
