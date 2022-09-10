@@ -149,5 +149,25 @@ namespace BusinessService.Logic
                 return result;
             }
         }
+
+        public async Task<IEnumerable<MS_Branch>> getBrokerBranch()
+        {
+            using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+            {
+                string sp = "USP_getBrokerBranch";
+                var result = await db.QueryAsync<MS_Branch>(sp, commandType: CommandType.StoredProcedure);
+                return result;
+            }
+        }
+
+        public async Task<IEnumerable<MS_Branch>> getAgentBranch()
+        {
+            using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
+            {
+                string sp = "USP_getAgentBranch";
+                var result = await db.QueryAsync<MS_Branch>(sp, commandType: CommandType.StoredProcedure);
+                return result;
+            }
+        }
     }
 }

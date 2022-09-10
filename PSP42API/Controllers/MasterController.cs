@@ -106,5 +106,19 @@ namespace WebAppiCore.Controllers
             var res = await MasterInterface.getUsermaster();
             return Json(res);
         }
+
+        [HttpGet("getBrokerBranch")]
+        public async Task<ActionResult> getBrokerBranch()
+        {
+            var res = await MasterInterface.getBrokerBranch();
+            return Json(res);
+        }
+
+        [HttpGet("getAgentBranch")]
+        public async Task<ActionResult> getAgentBranch()
+        {
+            var res = await MasterInterface.getAgentBranch();
+            return Json(res);
+        }
     }
 }

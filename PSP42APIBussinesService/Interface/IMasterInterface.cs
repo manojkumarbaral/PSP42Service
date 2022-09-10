@@ -23,5 +23,7 @@ namespace BusinessService.Interface
         Task<IEnumerable<MS_Branch>> getBranch();
         Task<IEnumerable<MS_Customer>> getTPACustomer();
         Task<IEnumerable<UserMasterModel>> getUsermaster();
+        Task<IEnumerable<MS_Branch>> getBrokerBranch();
+        Task<IEnumerable<MS_Branch>> getAgentBranch();
     }
 }

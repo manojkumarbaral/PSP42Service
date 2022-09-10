@@ -14,9 +14,9 @@ namespace BusinessEntities.MasterModel
         public int UserTypeID { get; set; }
         public int TPACustomerID { get; set; }
 
-        public int AgentID { get; set; }
-        public int BranchID { get; set; }
-        public int BrokerID { get; set; }
+        public int? AgentID { get; set; }
+        public int? BranchID { get; set; }
+        public int? BrokerID { get; set; }
         public string? TempPassword { get; set; }
         public string? LogInUserID { get; set; }
         public string? LoginPassword { get; set; }
