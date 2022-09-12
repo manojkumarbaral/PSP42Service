@@ -17,11 +17,11 @@ namespace BusinessService.Interface
         Task<IEnumerable<MS_ResidentialEmirate>> getResidentialEmirateMaster();
         Task<IEnumerable<MS_Salary>> getSalaryRange();
         Task<IEnumerable<MS_RelationshiptotheSponsor>> getRelationshiptotheSponsor();
-        Task<IEnumerable<MS_UserTypes>> getUsertype();
+        Task<IEnumerable<MS_UserTypes>> getUsertype(int userTypeID);
         Task<IEnumerable<MS_Agent>> getAgent();
         Task<IEnumerable<MS_Broker>> getBroker();
         Task<IEnumerable<MS_Branch>> getBranch();
-        Task<IEnumerable<MS_Customer>> getTPACustomer();
+        Task<IEnumerable<MS_Customer>> getTPACustomer(int userTypeID);
         Task<IEnumerable<UserMasterModel>> getUsermaster();
         Task<IEnumerable<MS_Branch>> getBrokerBranch();
         Task<IEnumerable<MS_Branch>> getAgentBranch();

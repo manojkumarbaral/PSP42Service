@@ -71,9 +71,9 @@ namespace WebAppiCore.Controllers
         }
 
         [HttpGet("getUsertype")]
-        public async Task<ActionResult> getUsertype()
+        public async Task<ActionResult> getUsertype(int userTypeID)
         {
-            var res = await MasterInterface.getUsertype();
+            var res = await MasterInterface.getUsertype(userTypeID);
             return Json(res);
         }
         [HttpGet("getAgent")]
@@ -95,9 +95,9 @@ namespace WebAppiCore.Controllers
             return Json(res);
         }
         [HttpGet("getTPACustomer")]
-        public async Task<ActionResult> getTPACustomer()
+        public async Task<ActionResult> getTPACustomer(int userTypeID)
         {
-            var res = await MasterInterface.getTPACustomer();
+            var res = await MasterInterface.getTPACustomer(userTypeID);
             return Json(res);
         }
         [HttpGet("getUsermaster")]

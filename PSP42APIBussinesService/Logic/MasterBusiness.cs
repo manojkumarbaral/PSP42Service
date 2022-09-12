@@ -95,12 +95,14 @@ namespace BusinessService.Logic
                 return result;
             }
         }
-        public async Task<IEnumerable<MS_UserTypes>> getUsertype()
+        public async Task<IEnumerable<MS_UserTypes>> getUsertype(int userTypeID)
         {
             using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
             {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("@userTypeID", userTypeID);
                 string sp = "USP_getUsertype";
-                var result = await db.QueryAsync<MS_UserTypes>(sp, commandType: CommandType.StoredProcedure);
+                var result = await db.QueryAsync<MS_UserTypes>(sp, param, commandType: CommandType.StoredProcedure);
                 return result;
             }
         }
@@ -131,12 +133,14 @@ namespace BusinessService.Logic
                 return result;
             }
         }
-        public async Task<IEnumerable<MS_Customer>> getTPACustomer()
+        public async Task<IEnumerable<MS_Customer>> getTPACustomer(int userTypeID)
         {
             using (IDbConnection db = new SqlConnection(dl.GetConnectionString()))
             {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("@userTypeID", userTypeID);
                 string sp = "USP_getTPACustmer";
-                var result = await db.QueryAsync<MS_Customer>(sp, commandType: CommandType.StoredProcedure);
+                var result = await db.QueryAsync<MS_Customer>(sp, param, commandType: CommandType.StoredProcedure);
                 return result;
             }
         }
